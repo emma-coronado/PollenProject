@@ -1,0 +1,89 @@
+# ---------------------
+# Python
+# ---------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environments
+venv/
+ENV/
+env/
+
+# Jupyter / IPython
+.ipynb_checkpoints
+
+# ---------------------
+# Windows
+# ---------------------
+# Thumbnail cache
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# VS Code
+.vscode/
+
+# ---------------------
+# TensorFlow / Keras
+# ---------------------
+# TensorFlow saved model / checkpoints
+*.h5
+*.keras
+checkpoint
+logs/
+tensorboard/
+
+# ---------------------
+# OpenCV / Images
+# ---------------------
+# Temporary images or dataset outputs
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.tiff
+*.tif
+
+# ---------------------
+# Matplotlib
+# ---------------------
+# Figures, cache
+*.svg
+*.pdf
+*.eps
+*.png
+*.ps
+*.pickle
+*.cache
+*.npz
+
+# ---------------------
+# Docker
+# ---------------------
+docker/Dockerfile
+docker-compose.override.yml
+*.env
+*.log
+
+# ---------------------
+# PyInstaller / build artifacts
+# ---------------------
+dist/
+build/
+*.spec
+*.exe
+*.dll
+*.pdb
+
+# ---------------------
+# Misc / OS
+# ---------------------
+*.log
+*.tmp
+*.bak
+*.swp
+.DS_Store
